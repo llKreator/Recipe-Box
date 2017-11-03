@@ -32,24 +32,3 @@ const ModalRecipe = (props) => {
 }
 
 export default ModalRecipe;
-
-
-
-
-
-
-
-{/* <div id="modalRecipe" className={showModal ? "one" : ''}>
-    <div className="modal-background">
-        <div className="modal">
-            <h2 className="modalRecipeHeader">Add a Recipe</h2>
-            <Row>
-                <Input s={12} label="Recipe" />
-                <Input s={12} label="Ingredients" />
-            </Row>
-            <svg className="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-                <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-            </svg>
-        </div>
-    </div>
-</div> */}

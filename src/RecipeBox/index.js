@@ -9,9 +9,6 @@ import { toggleButtons } from './helperFunctions';
 import './index.css';
 
 class RecipeBox extends Component {
-    constructor() {
-        super();
-    }
     state = {
         showModal: false,
     }
