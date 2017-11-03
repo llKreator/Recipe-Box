@@ -1,0 +1,39 @@
+#app{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.addRecipeBTN{
+    margin: auto;
+    display: block;
+}
+.overlay{
+    background:rgba(100,100,100,0.05);
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index:10;
+    transition: all 0.2s;
+  }
+  .overlayAfterOpen{
+    background:rgba(100,100,100,0.5);
+  }
+  .myModal {
+    height:auto;
+    width:60%;
+    position: absolute;
+    left:20%;
+    top:0;
+    transition:all 0.5s;
+    background: rgba(200,200,200,0.5);
+    outline:none;
+    border-radius:5px;
+    box-shadow: 0 1px 15px grey;
+  }
+  .myModalAfterOpen{
+    top:20%;
+    background: rgba(240,240,240,0.95);
+    box-shadow: 0 5px 35px grey;
+  }

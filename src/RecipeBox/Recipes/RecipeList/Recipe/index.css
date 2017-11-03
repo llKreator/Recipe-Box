@@ -1,0 +1,40 @@
+.ingredList {
+  list-style: none;
+}
+
+.recipe {
+  background: rgba(83, 199, 183, 0.5);
+}
+
+.RNContainer {
+  border-top: 1px solid white;
+  transition: all 0.3s;
+  margin: 0;
+}
+
+.RNContainer:hover {
+  background: rgba(109, 255, 211, 0.5);
+  cursor: pointer;
+}
+
+.ingredientsWord {
+  letter-spacing: 2px;
+}
+
+.ingredient {
+  letter-spacing: 2px;
+  border-top: 1px solid grey;
+  padding: 10px;
+}
+
+.ingredient:last-child {
+  border-bottom: 1px solid grey;
+}
+
+.btnEdit {
+  margin-left: 10px;
+}
+
+.btnIngred {
+  margin-top: 10px;
+}

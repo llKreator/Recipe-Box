@@ -1,0 +1,28 @@
+.modalRecipeHeader {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.modalRecipe {
+  height: auto;
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.modalRecipeAfterOpen {
+  top: 20%;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.modalRecipeBeforeClose {
+  top: 0;
+  opacity: 0;
+}
